@@ -5,6 +5,7 @@ fetch("http://localhost:8081/api/users") // bekendga murojat ketdi
   .then((javob) => javob.json()) // kelgan javobni json formatga o'girildi
   .then((data) => {
     console.log(data); // consolga chiqarildi
+    console.log(data); // consolga chiqarildi
 
     data.forEach((obj) => {
       let newDiv = document.createElement("div");
